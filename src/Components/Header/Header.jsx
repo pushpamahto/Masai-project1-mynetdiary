@@ -23,7 +23,7 @@ const Header = () =>{
         <li className="nav-item"><Link className="nav-link px-3" to="/diets">Diets</Link></li>
         <li className="nav-item"><Link className="nav-link px-3" to="/food">Food</Link></li>
         <li className="nav-item"><Link className="nav-link px-3" to="/library">Library</Link></li>
-        <li className="nav-item"><Link className="nav-link px-3" to="/business">Business pushpa1 cvxcv</Link></li>
+        <li className="nav-item"><Link className="nav-link px-3" to="/business">Business</Link></li>
         <div className="right_logo px-3">
        
        <div className="sign_up_btn"><Link to="#" className="sigup">Sign Up</Link></div>

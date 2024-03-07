@@ -79,7 +79,7 @@ const Aboutsec = () => {
                 <div className="about-para">
                   <p>
                     Find a diet that fits your lifestyle: Calorie Counting,
-                    Low-Carb, Keto, Vegan, Vegetarian and more. pushpa pushpa
+                    Low-Carb, Keto, Vegan, Vegetarian and more. 
                   </p>
                 </div>
               </div>
