@@ -1,0 +1,80 @@
+.homebage-banner-bg{
+    background-color:#079b41;
+    background: linear-gradient(ellipse at top,#079b41 0,#079b41 100%);
+    height: 690px;
+}
+
+.logo-app{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.left-logo-app{
+    width: 190px;
+}
+
+.right-logo-app img{
+    width: 190px;
+}
+
+.heading{
+    margin-top: 50px;
+}
+
+.heading h1{
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 600;
+    color: #fff;
+    font-family: Rubik, Helvetica, Arial, sans-serif;
+}
+
+.para{
+    margin-top: 30px;
+}
+.para p{
+    font-size: 24px;
+    line-height: 36px;
+    color: #fcf8b3;
+    font-weight: 500;
+}
+
+.right-img{
+    position: relative;
+    height: 100%;
+}
+
+.right-bottom-img{
+    position: absolute;
+    bottom: -30px;
+}
+
+
+.left-column-section{
+    margin-top: 80px;
+}
+.parent-rating{
+    margin-top: 100px;
+}
+.left-icons-rating{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+   
+}
+
+.left-icons-rating .bi-apple, .bi-android2{
+    color:  rgb(70, 97, 138);
+}
+
+.left-icons-rating .rating i{
+    color: orange;
+}
+
+.left-bottom-rating h2{
+    font-size: 26px;
+    line-height: 39px;
+}
