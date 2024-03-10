@@ -8,6 +8,7 @@ const Signup = () => {
       <Regiscom/>
     </div>
   )
+  
 }
 
 export default Signup
