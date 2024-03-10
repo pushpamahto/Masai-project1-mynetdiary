@@ -79,4 +79,4 @@ const Homebanner = () => {
   )
 }
 
-export default Homebanner
+export default Homebanner;

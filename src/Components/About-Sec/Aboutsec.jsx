@@ -15,7 +15,14 @@ import shadow3 from '../assets/slider/shadow3.jpeg';
 import shadow4 from '../assets/slider/shadow4.jpeg';
 import slider2 from '../assets/slider/slider2.png';
 import slider3 from '../assets/slider/slider3.png';
-
+import clientlogo1 from '../assets/home-clientlogo/logo-app-health.png';
+import clientlogo2 from '../assets/home-clientlogo/logo-apple-watch.png';
+import clientlogo3 from '../assets/home-clientlogo/logo-fitbit.png';
+import clientlogo4 from '../assets/home-clientlogo/logo-garmin.png';
+import clientlogo5 from '../assets/home-clientlogo/logo-google-fit.png';
+import clientlogo6 from '../assets/home-clientlogo/logo-samsung-health.png';
+import clientlogo7 from '../assets/home-clientlogo/logo-withings.png';
+import freestartban from '../assets/Banner/bg-start-your-free.png';
 
 const Aboutsec = () => {
   return (
@@ -79,7 +86,7 @@ const Aboutsec = () => {
                 <div className="about-para">
                   <p>
                     Find a diet that fits your lifestyle: Calorie Counting,
-                    Low-Carb, Keto, Vegan, Vegetarian and more. 
+                    Low-Carb, Keto, Vegan, Vegetarian and more.
                   </p>
                 </div>
               </div>
@@ -262,70 +269,62 @@ const Aboutsec = () => {
             <img src={slider1} class="d-block w-20" alt="..." width="648px" />
             <div class="carousel-caption d-none d-md-block">
               <h5>Julie Martel</h5>
-              <h2>
-              LOST 71 LB (35%) AND MAINTAINED<br/> AFTER 492 DAYS.
-              </h2>
-
-              <br/>
-
-              <span>  “My life changed. </span>
-              <br/>
-              <span> My life is beautiful!</span>
-              <br/>
-              <span> I am beautiful!!!”</span>
+              <p>
+              LOST 71 LB (35%) AND MAINTAINED <br/> AFTER 492 DAYS.
+              </p>
+              <span>
+                “My life changed.<br/>
+                 My life is beautiful! <br/>
+                 I am beautiful!!!”
+              </span>
 
               <div className="testimonial-btn1 my-5">
                 <a href="#" className="btn-tes">
                   Read Success Story <i class="bi bi-caret-right-fill"></i>
-                </a>  
+                </a>
               </div>
             </div>
-            <br/>  <br/>
           </div>
           <div class="carousel-item">
             <img src={slider2} class="d-block w-20" alt="..." width="648px" />
             <div class="carousel-caption d-none d-md-block">
               <h5>Carrie Hammond</h5>
-              <h2>
-              LOST AND MAINTAINED 103 LBS (40%) <br/>AFTER 616 DAYS.
-              </h2>
-
+              <p>
+              LOST AND MAINTAINED 103 LBS (40%)
               <br/>
-              <span> “I love having a desire to go out and </span>
-              <br/>
-              <span>experience new things without worrying about</span>
-              <br/>
-              <span>if I'm too fat to do something.”</span>
-
+              AFTER 616 DAYS.
+              </p>
+              <span>
+              “I love having a desire to go out and
+               <br/> experience new things without worrying about
+              <br/> if I'm too fat to do something.”
+              </span>
               <div className="testimonial-btn1 my-5">
                 <a href="#" className="btn-tes">
                   Read Success Story <i class="bi bi-caret-right-fill"></i>
                 </a>
               </div>
             </div>
-            <br/><br/>
           </div>
           <div class="carousel-item">
             <img src={slider3} class="d-block w-20" alt="..." width="648px" />
             <div class="carousel-caption d-none d-md-block">
               <h5>Paul Reynolds</h5>
-              <h2>
-              LOST 50LB (22%) AND MAINTAINED <br/>AFTER 345 DAYS.
-              </h2>
-
+              <p>
+              LOST 50LB (22%) AND MAINTAINED
               <br/>
-              <span> “The ability to track using MyNetDiary has </span>
-              <br/>  
-              <span> been so important.”</span>
-              <br/>
-             
+              AFTER 345 DAYS.
+              </p>
+              <span>
+              “The ability to track using MyNetDiary has <br/>
+               been so important.”
+              </span>
               <div className="testimonial-btn1 my-5">
                 <a href="#" className="btn-tes">
                   Read Success Story <i class="bi bi-caret-right-fill"></i>
                 </a>
               </div>
             </div>
-            <br/><br/>
           </div>
 
          
@@ -445,11 +444,50 @@ const Aboutsec = () => {
           </div>
           <div className="testimonial-btn text-center my-5">
             <a href="#" className="btn-tes">
-              More Features <i class="bi bi-caret-right-fill"></i>
+            View All Articles <i class="bi bi-caret-right-fill"></i>
             </a>
           </div>
         </div>
       </section>
+
+
+    <section className="client-morelogo">
+      <div className="container-fluid">
+      <h1 className="topreleated text-center">
+      Compatible With
+          </h1>
+        <div className="row">
+          <div className="col-lg-2"><img src={clientlogo4} alt="" className="img-fluid" srcset="" /> </div>
+          <div className="col-lg-1"> <img src={clientlogo1} alt="" className="img-fluid" srcset="" /></div>
+          <div className="col-lg-2"><img src={clientlogo2} alt="" className="img-fluid" srcset="" /></div>
+          <div className="col-lg-2"><img src={clientlogo3} alt="" className="img-fluid" srcset="" /></div>
+          <div className="col-lg-2"> <img src={clientlogo7} alt="" className="img-fluid" srcset="" /></div>
+          <div className="col-lg-2"><img src={clientlogo5} alt="" className="img-fluid" srcset="" /></div>
+          <div className="col-lg-1"><img src={clientlogo6} alt="" className="img-fluid" srcset="" /></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section className="startfreediary">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-lg-5">
+            <div className="leftcolstartfreediary">
+              <h1>Start Your Free Food Diary Today</h1>
+              <div className="signup-freestart my-5">
+            <a href="#" className="btn-free">
+            Sign up 
+            </a>
+          </div>
+            </div>
+          </div>
+          <div className="col-lg-7 p-0 m-0">
+          <div className="rightcolstartfreediary"><img src={freestartban} alt="" className="img-fluid" srcset="" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
       
     </>
   );

@@ -1,0 +1,261 @@
+.signin-header::before{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 95%;
+    background: #4ea403;
+    background: #05963d url('../assets/Banner/bg-white-banner.png') 0 0 repeat;
+    background: url('../assets/Banner/bg-white-banner.png'), radial-gradient(ellipse at top, #05b24a 0, #05963d 60%);
+    overflow: hidden;
+    border-bottom-right-radius: 100rem 5rem;
+    border-bottom-left-radius: 100rem 5rem;
+    box-shadow: inset rgba(9, 108, 46, .76) 0 -2.3rem 10.7rem;
+    z-index: 1;
+    content: '';
+}
+
+.bg-img{
+    background: url('../assets/Banner/bg-start-signup.png');
+    background-size: 1469px auto;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 90vh;
+    z-index: 9999;
+    position: relative;  
+}
+.signheader-logo{
+    text-align: center;
+   
+}
+
+.signheader-logo img{
+    width: 260px;
+    margin-top: 20px;
+}
+
+.shadow-bt{
+    position: relative;
+    padding: .1rem 0 2rem;
+    max-width: 108rem; 
+    min-height: 500px;
+    background-color: #fff;
+    border-radius: 3rem;
+    box-shadow: rgba(136, 130, 128, .5) 0 47px 66px -47px;
+    margin-top: 10px;
+}
+.signup-heading {
+    font-size: 44px;
+    line-height: 53px;
+    color:rgb(38, 143, 208);
+    text-align: center;
+    font-weight: 600;
+}
+
+.sign-para{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 80%;
+    padding: 0px 20px 20px 20px;
+    margin: auto;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+
+.sign-para .para{
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+}
+
+.pass-sing-parent{
+    position: relative;
+}
+
+.form-d-parent{
+    display: flex;
+    justify-content: start;
+    gap: 40px;
+    width: 80%;
+    margin: 30px auto;
+}
+.bi-eye-slash{
+    position: absolute;
+    top: 0;
+    right: 7px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn2 .button1{
+    height: 48px;
+    min-width: 140px;
+    border-radius: 4px;
+    background-color: #33B621;
+    color: #ffff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.facebook{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+    height: 48px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    background-color: #4267B2;
+}
+
+
+.google{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+    height: 48px;
+    background: #4285f4;
+    border-radius: 4px;
+    margin: 10px 0px 10px 0px;
+}
+
+.andoridphone{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+    height: 48px;
+    min-width: 140px;
+    border-radius: 4px;
+    background-color: #0d0d0d;
+}
+
+.googleleftincons{
+    background: #fff;
+    width: 40px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphoneleftincons{
+    width: 40px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.labelfb{
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+.btn-signup{
+    margin-top: 70px;
+    height: 50px;
+}
+
+.lefform{
+    padding-top: 30px;
+    width: 60%;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, .25) 11px 0 16px -15px;
+    padding-right: 26px;
+}
+.rightform{
+    width: 40%;
+}
+
+.rightform{
+   padding-top: 70px;
+}
+
+.checkbox1{
+    text-align: center;
+}
+.checkbox1 input{
+    width: 42px;
+}
+
+.checkbox1 label{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+.form-floating label{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000; 
+}
+
+.formbottomtxt span{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;   
+    font-weight: 600;
+}
+.formbottomtxt a{
+    color: #09b84f;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn1 .forget-pass{
+    color: #09b84f;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    height: 44px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-heading{
+    margin-top: 140px;
+}
+.parent-left-logo-app h2{
+    color:rgb(70, 97, 138);
+    font-size: 34px;
+    line-height: 41px;
+    font-weight: 500;
+}
+.aap-logo-footer{
+    background: rgba(143,112,102,.05);
+    background-image: url(../assets/slider/slider-bg.png);
+    width: 100%;
+    background-size: cover;
+    padding: 50px 0px 50px 0px;
+}
+
+.app-left-logo img{
+    width: 190px;
+}
+
+.app-right-logo img{
+    width: 190px;
+}
+
+.app-rating{
+    
+    margin-top: 10px;
+}
+.app-left-rating{
+    font-size: 45px;
+    font-weight: 600;
+    color: orange;
+}
+.app-left-rating i{
+    padding-left: 5px;
+}
+

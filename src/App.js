@@ -7,6 +7,8 @@ import Food from './Components/Pages/Foods/Food';
 import Feature from './Components/Pages/Features/Feature';
 import Diets from './Components/Pages/Diets/Diets';
 import Business from './Components/Pages/Business/Business';
+import Signin from './Components/Pages/Signin';
+import Signup from './Components/Pages/Signup';
 
 
 function App() {
@@ -23,14 +25,16 @@ function App() {
             <Route path='/food' element={<Food/>}></Route>
             <Route path='/business' element={<Business/>}></Route>
 
-          </Route>
+            </Route>
+            <Route path='/signup' element={<Signup/>}></Route>
+            <Route path='/signin' element={<Signin/>}></Route>
+
+         
 
          </Routes>
-         
          </BrowserRouter>
          
          </>
           )
-          
   }
 export default App;

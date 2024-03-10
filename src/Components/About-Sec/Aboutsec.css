@@ -17,8 +17,6 @@
     margin-top: 40px;
 }
 
-
-
 .about-left-right-img{
     width: 371px;
     margin: 25px;
@@ -93,6 +91,7 @@
     border-color: #0bb850
 }
 
+
 .testimonial-btn1 .btn-tes{
     color: #fff;
     background-color: transparent;
@@ -104,6 +103,26 @@
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 70px;
+    margin-top: 30px;
+
+   
+}
+
+
+
+
+.signup-freestart .btn-free{
+    color: #fff;
+    background-color: #0bab4b;
+    border: 1px solid;
+    border-color: rgba(254, 228, 36, 0.4);
+    font-size: 2rem;
+    line-height: 36px;
+    padding:15px 30px 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 70px;
+    font-weight: 700;
 }
 
 .foodplate-three img{
@@ -134,6 +153,15 @@
     background-size: cover;
     
 }
+
+.startfreediary{
+    background-image: url(../assets/slider/slider-bg.png) , radial-gradient(ellipse at top,#fdb941 0,#fc8a38 100%);
+    width: 100%;
+    background-size: cover;
+    padding: 50px 0px 50px 0px;
+}
+
+
 
 .carousel-caption{
     position: absolute;
@@ -168,4 +196,20 @@
 .carousel-caption span{
     color: #fcf8b3;
     font-size:20px;
+}
+
+.client-morelogo{
+    margin: 100px 0px 100px 0px;
+}
+.leftcolstartfreediary{
+    margin-top: 100px;
+}
+
+.leftcolstartfreediary h1{
+    font-weight: 500;
+    line-height: 100px;
+    letter-spacing: -.04em;
+    font-size: 80px;
+    margin: 0 0 2rem;
+    color: #fff;
 }

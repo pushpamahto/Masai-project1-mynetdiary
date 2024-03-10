@@ -1,0 +1,96 @@
+.footer{
+    background: rgba(143,112,102,.05);
+    background-image: url(../assets/slider/slider-bg.png);
+    width: 100%;
+    background-size: cover;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer-parent-rating{
+    margin-top: 30px;
+}
+
+.footer h3{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    color:rgb(70, 97, 138);
+}
+
+.footer ul li a{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: rgb(70, 97, 138);
+    text-decoration: none;
+}
+
+.footer-logo{
+    width: 300px;
+}
+
+.footer-left-logo-app{
+    width: 140px;
+}
+
+.footer-right-logo-app{
+    width: 140px;
+}
+
+.rating-footer{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.footer-left-icons-rating{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+   
+}
+
+.footer-left-icons-rating .rating i{
+    color: orange;
+}
+
+.copyright{
+    background: rgba(143,112,102,.05);
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+.navbar-nav-copy-right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+}
+.copyright-copy{
+    color:rgb(70, 97, 138);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+}
+.navbar-nav-copy-right li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.navbar-nav-copy-right li a{
+    text-decoration: none;
+}
+
+.logo-footer-fisrt{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.footer-left-logo-app{
+    
+}

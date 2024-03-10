@@ -26,8 +26,8 @@ const Header = () =>{
         <li className="nav-item"><Link className="nav-link px-3" to="/business">Business</Link></li>
         <div className="right_logo px-3">
        
-       <div className="sign_up_btn"><Link to="#" className="sigup">Sign Up</Link></div>
-       <div className="sign_up_in"><Link to="#" className="signin">Sign In</Link></div>
+       <div className="sign_up_btn"><Link to="/signup" className="sigup">Sign Up</Link></div>
+       <div className="sign_up_in"><Link to='/signin' className="signin">Sign In</Link></div>
 
      </div>
         
